@@ -166,6 +166,10 @@ a:focus {
     white-space: nowrap;
 }
 
+#world {
+    width: 1000px;
+}
+
 #title {
     padding: 0;
 }
@@ -205,7 +209,7 @@ a:focus {
 }
 
 #welcome .title {
-    font-size: 90px;
+    font-size: 80px;
     line-height: 150px;
 }
 
@@ -294,16 +298,16 @@ a:focus {
     font-size: 30px;
 }
 
-#whereiam .kunming {
+#whereiam .zhenjiang {
     color: green;
 }
 
-#whereiam .tsinghua {
+#whereiam .dongbei {
     color: purple;
 }
 
 #japan {
-    width: 650px;
+    width: 800px;
 }
 
 #japan b {
@@ -367,7 +371,7 @@ a:focus {
     width: 900px;
     padding-bottom: 120px;
 
-    background-image: url(http://www.gravatar.com/avatar/318643095c83b914cf80a7f99f247fe6?s=160);
+    background-image: url(.././favicon.png);
     background-position: bottom right;
     background-repeat: no-repeat;
 }
@@ -462,14 +466,31 @@ a:focus {
 
 #back {
     width: 700px;
-    padding-bottom: 400px;
+    padding-bottom: 450px;
 
-    background-image: url(http://i758.photobucket.com/albums/xx224/onevcat/ou-gi.jpg);
+    /*background-image: url(.././favicon.png);*/
     background-position: bottom right;
     background-repeat: no-repeat;
 }
 
 #overview { display: none }
+
+#tech .PHP {
+    color: green;
+}
+
+#tech .Python {
+    color: purple;
+}
+
+#tech .Nodejs {
+    color: red;
+}
+
+#knowme .title {
+    font-size: 80px;
+    line-height: 150px;
+}
 
 .impress-on-overview .step {
     opacity: 1;
@@ -477,7 +498,7 @@ a:focus {
 }
 
 .hint {
-    
+
     display: none;
 
     position: fixed;
